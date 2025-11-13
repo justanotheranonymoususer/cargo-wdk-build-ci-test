@@ -17,13 +17,13 @@ driver-type = "WDM"
 crate-type = ["cdylib"]
 
 [build-dependencies]
-wdk-build = { git = "https://github.com/microsoft/windows-drivers-rs", tag = "wdk-build-v0.5.0" }
+wdk-build = { git = "https://github.com/microsoft/windows-drivers-rs", rev = "7cff7e23" }
 
 [dependencies]
-wdk = { git = "https://github.com/microsoft/windows-drivers-rs", tag = "wdk-v0.4.0" }
-wdk-alloc = { git = "https://github.com/microsoft/windows-drivers-rs", tag = "wdk-alloc-v0.4.0" }
-wdk-panic = { git = "https://github.com/microsoft/windows-drivers-rs", tag = "wdk-panic-v0.4.0" }
-wdk-sys = { git = "https://github.com/microsoft/windows-drivers-rs", tag = "wdk-sys-v0.5.0" }
+wdk = { git = "https://github.com/microsoft/windows-drivers-rs", rev = "7cff7e23" }
+wdk-alloc = { git = "https://github.com/microsoft/windows-drivers-rs", rev = "7cff7e23" }
+wdk-panic = { git = "https://github.com/microsoft/windows-drivers-rs", rev = "7cff7e23" }
+wdk-sys = { git = "https://github.com/microsoft/windows-drivers-rs", rev = "7cff7e23" }
 
 [features]
 default = []
